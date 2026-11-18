@@ -1,0 +1,48 @@
+# Financial market data pipeline
+
+Version: 0.1
+Status: Draft
+
+## Project Objective 
+An end-to-end stock market analysis pipeline for automated retrieval, validation, and storage for analytical application
+
+## 1. Functional requirements
+FR-01	The system shall retrieve historical stock market data from an external API.
+FR-02	The system shall extract opening, closing, high, low, and volume values.
+FR-03	The system shall validate incoming market data.
+FR-04	The system shall store validated records in a relational database.
+FR-05	The system shall prevent duplicate records.
+FR-06	The system shall support automated data updates.
+FR-07	The system shall display analytical results through an interactive interface.
+
+## 2. Nonfunctional requirements
+NFR-01	The system shall store API credentials securely outside the source code.
+NFR-02	The system shall log ingestion errors.
+NFR-03	The source code shall support independent testing of core components.
+NFR-04	The application shall provide reproducible installation instructions.
+
+## 3. Technology Stack
+
+- Python 3.12
+- PostgreSQL
+- REST API
+- SQL
+- Git and GitHub
+- Jupyter Notebook
+- Dash
+
+## 4. Scope Limitations
+
+Version 1.0 will focus on historical equities data.
+
+The following features are outside the initial scope:
+
+- Real-time market streaming
+- Options pricing
+- Automated trading
+- Machine learning predictions
+- Advanced backtesting
+
+## 5. Misc. details- 
+
+-ETL = extract, transform, load
