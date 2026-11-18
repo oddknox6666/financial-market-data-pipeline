@@ -224,3 +224,6 @@ __marimo__/
 
 # financial market data
 data/
+
+# local editor configuration
+.vscode/
