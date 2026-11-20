@@ -21,6 +21,12 @@ NFR-02	The system shall log ingestion errors.
 NFR-03	The source code shall support independent testing of core components.
 NFR-04	The application shall provide reproducible installation instructions.
 
+ING-NFR-01	API credentials shall not be hardcoded or logged.
+ING-NFR-03	HTTP requests shall have a configurable timeout.
+ING-NFR-04	Core functions shall be independently testable.
+ING-NFR-05	Function names, parameters and return values shall be documented.
+
+
 ## 3. Technology Stack
 
 - Python 3.12
@@ -45,4 +51,5 @@ The following features are outside the initial scope:
 
 ## 5. Misc. details- 
 
--ETL = extract, transform, load
+- ETL = extract, transform, load
+- JSON = JavaScript Object Notation
